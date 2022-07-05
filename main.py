@@ -1,6 +1,5 @@
 import traceback
 from openpyxl import load_workbook
-
 import functions as f
 
 try:
@@ -32,8 +31,8 @@ try:
         scelta = 999
         while scelta != 0:
             print(
-                "\nMenu: \n1) Ricerca per nome\n2) Ricerca per anno\n3) Ricerca per nazionalità\n4) Ricerca per "
-                "genere\n0) per chiudere")
+                "\nMenu: \n1) Ricerca per nome\n2) Ricerca per anno\n3) Ricerca per genere\n4) Ricerca per "
+                "nazionalità\n0) per chiudere")
             scelta = int(input("Scelta: "))
             match scelta:
                 case 1:
